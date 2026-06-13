@@ -244,6 +244,42 @@ Each gemstone is scored based on the user's input:
 | Build | `npm run build` | Create production build |
 | Preview | `npm run preview` | Preview production build |
 
+## 🚀 Future Improvements
+
+### Phase 1 — Enhanced Features
+- [ ] 🔐 **User Authentication** — Sign up / Login with JWT so users can save their recommendations
+- [ ] 📜 **Recommendation History** — Store past recommendations per user
+- [ ] 🖼️ **Gemstone Gallery** — Browse all 9 gemstones with detailed individual pages
+- [ ] 🌐 **Multi-language Support** — Hindi and English toggle
+- [ ] 📊 **Admin Dashboard** — Add, edit, or delete gemstones from a dashboard UI
+
+### Phase 2 — Smarter Recommendations
+- [ ] 🤖 **AI-Powered Matching** — Integrate an LLM (Gemini/OpenAI) for more personalized, conversational recommendations
+- [ ] 📅 **Birth Date Analysis** — Use exact birth date + time for more accurate Kundli-based suggestions
+- [ ] 🔄 **Combination Stones** — Suggest gemstone combinations (e.g., Ruby + Yellow Sapphire)
+- [ ] ⚠️ **Incompatibility Warnings** — Alert users about gemstones that conflict with their zodiac
+- [ ] 📈 **Confidence Score** — Show a percentage match score for each recommendation
+
+### Phase 3 — E-Commerce & Monetization
+- [ ] 🛒 **Buy Gemstones** — Integrate with gemstone sellers / affiliate links
+- [ ] 💳 **Payment Gateway** — Razorpay / Stripe integration for direct purchases
+- [ ] 🏪 **Vendor Listings** — Partner with certified gemstone dealers
+- [ ] ⭐ **Reviews & Ratings** — Let users rate their gemstone experience
+
+### Phase 4 — Technical Improvements
+- [ ] 🧪 **Unit & Integration Tests** — Jest for backend, React Testing Library for frontend
+- [ ] 🐳 **Docker Setup** — Containerize backend + frontend for easy deployment
+- [ ] ☁️ **Deploy to Cloud** — Vercel (frontend) + Render/Railway (backend)
+- [ ] 📱 **PWA Support** — Make it installable as a mobile app
+- [ ] ⚡ **Caching** — Redis caching for frequent zodiac-goal queries
+- [ ] 📧 **Email Recommendations** — Send results to user's email with Nodemailer
+
+### Phase 5 — Content & Engagement
+- [ ] 📝 **Blog Section** — Articles about gemstones, astrology, and their significance
+- [ ] 💬 **Live Chat / Consultation** — Connect users with astrology experts
+- [ ] 📲 **Share Results** — Share gemstone recommendations on social media
+- [ ] 🔔 **Push Notifications** — Notify users about gemstone-related auspicious days
+
 ---
 
 ## 🤝 Contributing
@@ -256,6 +292,12 @@ Each gemstone is scored based on the user's input:
 
 ---
 
+## 🤖 AI Usage
+
+This project was built with AI assistance. See [AI_USAGE.md](AI_USAGE.md) for a full transparency report on how AI tools were used during development.
+
+---
+
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -263,3 +305,4 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <p align="center">Made with ❤️ and 💎</p>
+
